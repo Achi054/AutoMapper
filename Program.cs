@@ -6,7 +6,12 @@ namespace AutoMapperConfiguration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try {
+                RegisterMapping.Initialize();
+                Console.WriteLine("Mapping Successful!");
+            } catch (Exception) {
+                Console.WriteLine("Mapping Unsuccessful!");
+            }
         }
     }
 }
