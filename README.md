@@ -21,4 +21,4 @@ The Account model requires User model to be registered as part of its registrati
 ## How it's done
 
 We define the base mapping configuration in the individual MapperConfiguration files and initialize using the MapperInitializer.<br/>
-The Main Registration for all the domain entitiesa are defined in the RegisterMapppping file.
+The Main Registration for all the domain entities are defined in the RegisterMapppping file.
